@@ -3737,8 +3737,7 @@ export default {
     planthandleClick(tab,event){
       this.plantpointTab = tab.index;
       this.subjectmustQuesTypeNow = this.plantmustQuesList[this.plantpointTab].subjectmustQuesList[this.subjectpointTab].type;
-      this.subjectpointTab=0;
-      this.subjectpointIndex=this.subjectpointName[0]
+      this.changeSubjectTab()
     },
     subjectClick(tab,eve){
       this.subjectpointTab = tab.index;
